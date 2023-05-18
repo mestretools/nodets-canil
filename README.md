@@ -1,5 +1,5 @@
 # nodets-canil
-Projeto feito em Node+Typescript
+Projeto feito em Node+Typescript sem BD.
 
 ### Pré-requisitos globais:
 `npm i -g nodemon typescript ts-node`

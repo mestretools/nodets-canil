@@ -21,7 +21,7 @@ server.use(mainRoutes);
 
 // configuracao de rota nao encontrada
 server.use((req, res) => {
-    res.status(404).send('Página não encontrada.');
+    res.status(404).render('pages/404.mustache');
 });
 
 // configuração do server
